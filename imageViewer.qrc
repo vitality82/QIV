@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="clear.png">Resources/clear.png</file>
+        <file alias="fit.png">Resources/fit.png</file>
+        <file alias="open.png">Resources/open.png</file>
+        <file alias="print.png">Resources/print.png</file>
+        <file alias="rotate_ccw.png">Resources/rotate_ccw.png</file>
+        <file alias="rotate_cw.png">Resources/rotate_cw.png</file>
+        <file alias="save.png">Resources/save.png</file>
+        <file alias="about.png">Resources/about.png</file>
+    </qresource>
+</RCC>

@@ -26,7 +26,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->statusBar->addWidget(m_infoLabel);
 
     connect(ui->actionOpen, SIGNAL(triggered()), this, SLOT(openImage()));   
-    connect(ui->actionClose, SIGNAL(triggered()), this, SLOT(closeImage()));    
+    connect(ui->actionClear, SIGNAL(triggered()), this, SLOT(closeImage()));
     connect(ui->actionFitWindow, SIGNAL(toggled(bool)), ui->graphicsView, SLOT(reactToFitWindowToggle(bool)));  
     connect(ui->actionPrint, SIGNAL(triggered()), this, SLOT(printImage()));   
     connect(ui->actionSave,SIGNAL(triggered()), this, SLOT(saveImage()));    
@@ -43,7 +43,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::enableControls(bool bEnable)
 { 
-    ui->actionClose->setEnabled(bEnable);
+    ui->actionClear->setEnabled(bEnable);
     ui->actionPrint->setEnabled(bEnable);
     ui->actionRotate_Left->setEnabled(bEnable);
     ui->actionRotate_right->setEnabled(bEnable);

@@ -12,11 +12,8 @@ ImgViewer::ImgViewer(QWidget *parent) :
 {
     m_scene = new QGraphicsScene(this);
     this->setScene(m_scene);
-
     this->setBackgroundBrush(QBrush(QColor(38,38,38,255),Qt::SolidPattern));
     this->setDragMode(NoDrag);
-
-    qDebug()<<"ImgViewer started";
 }
 
 bool ImgViewer::loadFile(const QString &strFilePath, QString &strError)

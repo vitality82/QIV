@@ -103,7 +103,7 @@
     </property>
     <addaction name="actionOpen"/>
     <addaction name="actionSave"/>
-    <addaction name="actionClose"/>
+    <addaction name="actionClear"/>
     <addaction name="separator"/>
     <addaction name="actionPrint"/>
     <addaction name="separator"/>
@@ -151,7 +151,7 @@
    </attribute>
    <addaction name="actionOpen"/>
    <addaction name="actionSave"/>
-   <addaction name="actionClose"/>
+   <addaction name="actionClear"/>
    <addaction name="separator"/>
    <addaction name="actionPrint"/>
    <addaction name="separator"/>
@@ -169,13 +169,13 @@
     <string>&amp;Open</string>
    </property>
   </action>
-  <action name="actionClose">
+  <action name="actionClear">
    <property name="icon">
     <iconset resource="imageViewer.qrc">
      <normaloff>:/icons/clear.png</normaloff>:/icons/clear.png</iconset>
    </property>
    <property name="text">
-    <string>Close</string>
+    <string>Clear</string>
    </property>
   </action>
   <action name="actionExit">

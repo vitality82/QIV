@@ -14,5 +14,5 @@ Features:
 - Print
 - Clear
 
-
+![alt text](screenshots/scr1.jpg "GUI")
 

@@ -7,7 +7,7 @@ It has some basic features and is easy for integration with Qt Designer (drop Gr
 Features:
 
 - based on QGraphicsView
-- zooming on Mouse scroll
+- Zooming on Mouse scroll (hand drag scrolls image)
 - Fit to Window
 - Rotation (clockwise and counter clockwise)
 - Save as..
@@ -15,6 +15,3 @@ Features:
 - Clear
 
 ![alt text](https://github.com/vitality82/QIV/blob/master/Screenshots/scr1.jpg)
-
-
-

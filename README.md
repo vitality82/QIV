@@ -14,5 +14,7 @@ Features:
 - Print
 - Clear
 
+![alt text](https://github.com/vitality82/QIV/blob/master/Screenshots/scr1.jpg)
+
 
 

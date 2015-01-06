@@ -1,3 +1,3 @@
- Icons used in the toolbar: 
-    Farm-Fresh iconpack by FatCow
-    (CC-BY 3.0 US) http://www.fatcow/free-icons
+Icons used in the toolbar: 
+ Farm-Fresh iconpack: http://www.fatcow/free-icon 
+ Released under the CC-BY 3.0 License: http://creativecommons.org/licenses/by/3.0/us/
